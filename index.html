@@ -38,6 +38,21 @@
     </center>
     </div>
 
+    <button onclick="setTimeOutButton()">Set Time Out</button>
+
+    <script>
+        function normalButton(){
+            alert("normal Button");
+        }
+
+        function setTimeOutButton() {
+            setTimeout(
+                function()  {
+                    alert("set Timeout Button");
+                }, 3000);
+        }
+    </script>
+
     <script src="main.js"></script>
 </body>
 </html>
